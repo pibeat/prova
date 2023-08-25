@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header {
+            padding: 10px 16px;
+            background: rgba(146, 81, 81, 0.544);
+            color: rgb(88, 44, 58);
+        }
+
+        h1 {
+            text-align: center;
+            font-family: fantasy;
+            font-weight: lighter;
+        }
+
+        .content {
+            padding: 16px;
+        }
+
+        .sticky {
+            position: sticky;
+            top: 0;
+            color: #ffffff;
+        }
+
+        .sticky+.content {
+            padding-top: 102px;
+        }
+
+        body {
+            margin: 30px 300px 40px 300px;
+            color: rgb(57, 27, 37);
+            background-image: url(https://www.tomshw.it/data/thumbs/7/2/4/6/photo-1457369804613-52c61a468e7d-3911f4f44dd585ed0cbc823e5c3a56173.jpg);
+        }
+
+        h2 {
+            text-align: right;
+            font-weight: lighter;
+            font-family: fantasy;
+            font-size: 15px;
+            color: rgb(88, 44, 58);
+
+        }
+
+        .text {
+            padding: 10px 30px 40px 30px;
+            background: rgba(146, 81, 81, 0.726);
+            margin: 0 auto;
+        }
+
+        .moustache {
+            width: 350px;
+            box-shadow: 20px 20px 20px rgba(76, 32, 32, 0.674);
+            border-radius: 0.2em;
+            margin-top: 20px;
+            margin-right: 10px;
+        }
+
+        p {
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: normal;
+        }
+
+        .link {
+            color: #000000;
+            margin: 0 auto;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            font-size: 15px;
+        }
+
+        button {
+            width: 200px;
+            height: 70px;
+            display: block;
+            margin: 0 auto;
+            color: rgb(0, 0, 0);
+            font-family: Arial, Helvetica, sans-serif;
+            background: #c7d0e399;
+            border-color: #000000;
+            border-width: 0.3px;
+            transition: all 300ms ease-in-out;
+            box-shadow: 20px 20px 20px rgba(76, 32, 32, 0.674);
+
+        }
+
+        button:hover {
+            background-color: white;
+            cursor: pointer;
+            color: rgb(10, 109, 202);
+            border-color: rgb(10, 109, 202);
+        }
+
+        .books {
+            padding: 20px 30px 10px 30px;
+            background: rgba(146, 81, 81, 0.544);
+            text-align: center;
+            display: block;
+            margin: 0 auto;
+            color: rgb(88, 44, 58);
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+        }
+
+        .item {
+            display: inline;
+            cursor: pointer;
+        }
+
+        .end {
+            font-family: 'Courier New', Courier, monospace;
+            color: rgb(56, 28, 37);
+            text-align: right;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header" id="myHeader">
+        <h1>THEBOOKCLUB</h1>
+    </div>
+    <hr>
+    <h2> BOOK OF THE MONTH</h2>
+    <section>
+        <hr>
+        <div class="text">
+            <div style="float: left; margin-right: 10px">
+                <img class="moustache"
+                    src="https://s3.eu-west-2.amazonaws.com/p.ublished/media2/2020/oct/54795/image.jpg">
+            </div>
+            <p>
+                Emanuel Carrere__
+                <br>
+                <strong>
+                    THE MOUSTACHE
+                </strong>
+                <br>
+                <br>
+                The Moustache, first published in 1986, is a novel by the French writer Emmanuel Carrère.
+                <br>The story begins with a fairly innocuous and insignificant event that spirals towards
+                what can only be
+                described as a profoundly disturbing conclusion. One morning, a man shaves off his long-worn moustache,
+                hoping to amuse his wife and friends. But
+                when
+                nobody notices, or pretends not to have noticed, what started out as a simple trick turns to terror. As
+                doubt and denial
+                bristle, and every aspect of his life threatens to topple into madness – a disturbing solution comes
+                into
+                view, taking us on a
+                dramatic flight across the world.
+                Thematically the book explores a great deal about perception of self, the presence of identity, how this
+                may define a
+                person and what might happen when deprived of self-identity. Physicality can become irrelevant, you are
+                known to people
+                for who you are, and not precisely what you look like. It is perhaps only the self that cares about
+                appearance, how one
+                is perceived by the wider world.
+                A superficially nonsensical journey, that turns to be inevitably dark, menacing and psychologically
+                horror.
+            </p>
+            <a href="https://en.wikipedia.org/wiki/The_Moustache" target="_blank" class="link">
+                Read on Wikipedia
+                <br>
+                <br>
+            </a>
+        </div>
+        <br>
+        <button>CONTACT US</button>
+        <button button
+            onclick="window.open('https://www.amazon.com/Moustache-Vintage-Editions-Emmanuel-Carr%C3%A8re/dp/1784876143')">GET
+            YOUR COPY HERE
+        </button>
+
+        <br>
+        <br>
+        <div class="books">
+            RELATED BOOKS:
+            <br>
+            <br>
+            <span class="item">
+                <a href="https://www.amazon.ca/V13-Emmanuel-Carrere/dp/8433904973" target="_blank">
+                    <img src="https://www.adelphi.it/spool/cover__id13036_w480_t1677066000.jpg" style="width:20%">
+                </a>
+            </span>
+            <span class="item">
+                <a href="https://www.amazon.ca/Yoga-Emmanuel-Carr%C3%A8re/dp/0374604940/ref=sr_1_1?crid=2Z2IQSI7UXXV1&keywords=yoga+carrere&qid=1691255478&s=books&sprefix=yoga+carrere%2Cstripbooks%2C198&sr=1-1"
+                    target="_blank">
+                    <img src="https://www.adelphi.it/spool/cover__id10439_w480_t1634722744.jpg" style="width:20%">
+                </a>
+            </span>
+            <span class="item">
+                <a href="https://www.amazon.ca/Limonov-Outrageous-Adventures-Sensation-Political-ebook/dp/B00J6U7JVS/ref=sr_1_1?crid=2G9NIHWVB9YGX&keywords=limonov+carrere&qid=1691255552&s=gift-cards&sprefix=limonov+carrere%2Cgift-cards%2C187&sr=1-1"
+                    target="_blank">
+                    <img src="https://www.adelphi.it/spool/cover__id2947_w240_t1349202359.jpg" style="width:20%">
+                </a>
+            </span>
+
+        </div>
+
+
+
+    </section>
+    <hr>
+    <div class="end">Coded by Beatrice Pizzi</div>
+    <script>
+        function readBook() {
+            let name = prompt("What is your name?");
+            let email = prompt("What is your email?")
+
+            if (name - email) {
+                alert("Thanks, " + name + ", we will be in touch soon. Meanwhile, don't forget to read!")
+            } else {
+                alert("Please enter your data")
+                let name = prompt("What is your name?");
+                let email = prompt("What is your email?");
+                if (name + email) {
+                    alert("Thanks, " + name + ", we will be in touch soon. Meanwhile, don't forget to read!")
+                }
+            }
+
+        }
+        let contactButton = document.querySelector("button");
+        contactButton.addEventListener("click", readBook);
+
+        window.onscroll = function () { myFunction() };
+
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+
+    </script>
+</body>
+
+</html>
